@@ -1,5 +1,10 @@
-# I HAVE NO IDEA WHAT GOES HERE
-<html>
+# I REALLY SHOULDNT BE TRYING HTML HERE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>IT IS ME AGAIN</title>
+</head>
   <body>
     <main>
       <h1><strong>My first experience</strong></h1>
@@ -40,15 +45,20 @@
           <input type="text" name="memeurl" placeholder="Meme URL" required>
           <fieldset>
             <legend>Which memes do you prefer?</legend>
-          <label><input type="radio" id="catmemes" name="memes" value="memes">Cat memes</label>
+          <label><input checked type="radio" id="catmemes" name="memes" value="memes">Cat memes</label>
           <label><input type="radio" id="cartoonmemes" name="memes" value="cartoonmemes">Cartoon memes</label>
           <button type="submit">Submit meme</button>
           </fieldset>
           <fieldset>
             <legend>Where do you get memes from?</legend>
-            <input type="checkbox" id="reddit" name="obtain"> <label for="reddit">Reddit</label>
+            <input checked type="checkbox" id="reddit" name="obtain" value="reddit"> <label for="reddit">Reddit</label>
+            <input type="checkbox" id="facebook" name="obtain" value="facebook"> <label for="facebook">Facebook</label>
+            <input type="checkbox" id="twitter" name="obtain" value="twitter"> <label for="twitter">Twitter</label>
             </fieldset>
         </form>
     </main>
+        <footer>
+          <p>This is where <a href="https://www.copyright.com">copyright</a> should go.</p>
+        </footer>
   </body>
 </html>

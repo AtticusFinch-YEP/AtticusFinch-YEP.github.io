@@ -1,6 +1,5 @@
-# AtticusFinch-YEP.github.io
+# I HAVE NO IDEA WHAT GOES HERE
 <html>
-  <title>Agora sim macaco</title>
   <body>
     <main>
       <h1><strong>My first experience</strong></h1>
@@ -32,7 +31,24 @@
         </ol>
         <figure>
           <img src="https://media.tenor.com/NQDUwW5K5aAAAAAM/surely-xqc.gif" alt="My face when I say surely.">
+          <figcaption>Suurely.</figcaption>
         </figure>
+      </section>
+      <section>
+        <h2>Alright Im learning from code camp. Guilty</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <input type="text" name="memeurl" placeholder="Meme URL" required>
+          <fieldset>
+            <legend>Which memes do you prefer?</legend>
+          <label><input type="radio" id="catmemes" name="memes" value="memes">Cat memes</label>
+          <label><input type="radio" id="cartoonmemes" name="memes" value="cartoonmemes">Cartoon memes</label>
+          <button type="submit">Submit meme</button>
+          </fieldset>
+          <fieldset>
+            <legend>Where do you get memes from?</legend>
+            <input type="checkbox" id="reddit" name="obtain"> <label for="reddit">Reddit</label>
+            </fieldset>
+        </form>
     </main>
   </body>
 </html>
